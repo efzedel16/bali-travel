@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+body {
+    background-image: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pasifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.about {
+    color: #fcb371 !important;
+    border-color: #fcb371 !important;
+}
+
+.about:hover {
+    background-color: #fcb371;
+    color: #f8f9fa !important;
+}
+
+.reservation {
+    background-color: #fcb371 !important;
+    border-color: #fcb371 !important;
+}
+
+.reservation:hover {
+    background-color: #fb9740 !important;
+    border-color: #fb8926 !important;
+}
+
+.btn:focus, input:focus, select:focus, textarea:focus {
+    border-color: #fb8926 !important;
+    box-shadow: 0 0 0 0.25rem rgba(252, 179, 113, 0.5) !important;
+}
+
+.back {
+    color: #fcb371 !important;
+}
+
+.back:hover {
+    color: #fb9740 !important;
+}
+
+@media (max-width: 1199.98px) {
+    body {
+        height: 100vh;
+    }
+}
