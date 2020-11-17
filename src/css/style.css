@@ -49,7 +49,7 @@ body {
     color: #fb9740 !important;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 575.98px) {
     body {
         height: 100vh;
     }
