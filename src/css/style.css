@@ -51,10 +51,16 @@ body {
 
 @media (max-width: 575.98px) {
     body {
-        /*height: 100vh;*/
+        height: 100vh;
     }
 
     .filter {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
         height: 100vh;
     }
 }
